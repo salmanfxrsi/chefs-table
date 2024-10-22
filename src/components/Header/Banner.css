@@ -1,0 +1,7 @@
+.background{
+    background-image: url(../../assets/banner.jpg);
+    padding-top: 129px;
+    padding-bottom: 129px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
