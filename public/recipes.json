@@ -1,93 +1,92 @@
 [
-    {
-      "recipe_id": 1,
-      "recipe_name": "Grilled Chicken Salad",
-      "recipe_image": "https://i.ibb.co.com/kqcPDPK/Grilled-Chicken-Salad.jpg",
-      "short_description": "A healthy and delicious grilled chicken salad with fresh greens and a light dressing.",
-      "ingredients": [
-        "250 g grilled chicken",
-        "100 g mixed greens",
-        "50 g cherry tomatoes",
-        "30 ml olive oil",
-        "10 ml lemon juice"
-      ],
-      "preparing_time": "25 min",
-      "calories": "320 calories"
-    },
-    {
-      "recipe_id": 2,
-      "recipe_name": "Spaghetti Carbonara",
-      "recipe_image": "https://i.ibb.co.com/Fw6p8Bz/bowl-spaghetti-with-green-leaf-top-1340-26760.jpg",
-      "short_description": "Classic Italian pasta with creamy sauce, pancetta, and parmesan cheese.",
-      "ingredients": [
-        "200 g spaghetti",
-        "100 g pancetta",
-        "50 g parmesan cheese",
-        "2 eggs",
-        "30 ml olive oil"
-      ],
-      "preparing_time": "20 min",
-      "calories": "400 calories"
-    },
-    {
-      "recipe_id": 3,
-      "recipe_name": "Vegetable Stir-fry",
-      "recipe_image": "https://i.ibb.co.com/YptsTk6/stir-fry-chicken-sweet-peppers-green-beans-2829-20113.jpg",
-      "short_description": "A quick and easy stir-fry with colorful vegetables and a soy sauce glaze.",
-      "ingredients": [
-        "150 g broccoli",
-        "100 g bell peppers",
-        "100 g carrots",
-        "50 ml soy sauce",
-        "30 ml sesame oil"
-      ],
-      "preparing_time": "15 min",
-      "calories": "250 calories"
-    },
-    {
-      "recipe_id": 4,
-      "recipe_name": "Mushroom Risotto",
-      "recipe_image": "https://i.ibb.co.com/R0bZMHG/delicious-mushroom-risotto-white-bowl-with-spoon-23-2147925975.jpg",
-      "short_description": "Creamy risotto with mushrooms and parmesan cheese.",
-      "ingredients": [
-        "400 g mushrooms",
-        "250 g arborio rice",
-        "50 g parmesan cheese",
-        "1 onion",
-        "500 ml vegetable stock"
-      ],
-      "preparing_time": "40 min",
-      "calories": "450 calories"
-    },
-    {
-      "recipe_id": 5,
-      "recipe_name": "Chicken Teriyaki",
-      "recipe_image": "https://i.ibb.co.com/thZ29CK/top-view-delicious-chicken-table-23-2150857802.jpg",
-      "short_description": "Tender chicken coated with a savory-sweet teriyaki sauce.",
-      "ingredients": [
-        "300 g chicken breast",
-        "100 ml teriyaki sauce",
-        "50 g green onions",
-        "20 g sesame seeds",
-        "30 ml soy sauce"
-      ],
-      "preparing_time": "30 min",
-      "calories": "380 calories"
-    },
-    {
-      "recipe_id": 6,
-      "recipe_name": "Thai Green Curry",
-      "recipe_image": "https://i.ibb.co.com/thZ29CK/top-view-delicious-chicken-table-23-2150857802.jpg",
-      "short_description": "A flavorful Thai green curry with chicken and coconut milk.",
-      "ingredients": [
-        "300 g chicken",
-        "200 ml coconut milk",
-        "50 g green curry paste",
-        "100 g bamboo shoots",
-        "30 g basil leaves"
-      ],
-      "preparing_time": "35 min",
-      "calories": "420 calories"
-    }
+  {
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken Salad",
+    "recipe_image": "https://i.ibb.co.com/kqcPDPK/Grilled-Chicken-Salad.jpg",
+    "short_description": "A healthy and delicious grilled chicken salad with fresh greens and a light dressing.",
+    "ingredients": [
+      "250 g grilled chicken",
+      "100 g mixed greens",
+      "50 g cherry tomatoes",
+      "30 ml olive oil",
+      "10 ml lemon juice"
+    ],
+    "preparing_time": 25,
+    "calories": 320
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Spaghetti Carbonara",
+    "recipe_image": "https://i.ibb.co.com/Fw6p8Bz/bowl-spaghetti-with-green-leaf-top-1340-26760.jpg",
+    "short_description": "Classic Italian pasta with creamy sauce, pancetta, and parmesan cheese.",
+    "ingredients": [
+      "200 g spaghetti",
+      "100 g pancetta",
+      "50 g parmesan cheese",
+      "2 eggs",
+      "30 ml olive oil"
+    ],
+    "preparing_time": 20,
+    "calories": 400
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Vegetable Stir-fry",
+    "recipe_image": "https://i.ibb.co.com/YptsTk6/stir-fry-chicken-sweet-peppers-green-beans-2829-20113.jpg",
+    "short_description": "A quick and easy stir-fry with colorful vegetables and a soy sauce glaze.",
+    "ingredients": [
+      "150 g broccoli",
+      "100 g bell peppers",
+      "100 g carrots",
+      "50 ml soy sauce",
+      "30 ml sesame oil"
+    ],
+    "preparing_time": "15 min",
+    "calories": 250
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Mushroom Risotto",
+    "recipe_image": "https://i.ibb.co.com/R0bZMHG/delicious-mushroom-risotto-white-bowl-with-spoon-23-2147925975.jpg",
+    "short_description": "Creamy risotto with mushrooms and parmesan cheese.",
+    "ingredients": [
+      "400 g mushrooms",
+      "250 g arborio rice",
+      "50 g parmesan cheese",
+      "1 onion",
+      "500 ml vegetable stock"
+    ],
+    "preparing_time": 40,
+    "calories": 450
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Chicken Teriyaki",
+    "recipe_image": "https://i.ibb.co.com/thZ29CK/top-view-delicious-chicken-table-23-2150857802.jpg",
+    "short_description": "Tender chicken coated with a savory-sweet teriyaki sauce.",
+    "ingredients": [
+      "300 g chicken breast",
+      "100 ml teriyaki sauce",
+      "50 g green onions",
+      "20 g sesame seeds",
+      "30 ml soy sauce"
+    ],
+    "preparing_time": 30,
+    "calories": 380
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Thai Green Curry",
+    "recipe_image": "https://i.ibb.co.com/thZ29CK/top-view-delicious-chicken-table-23-2150857802.jpg",
+    "short_description": "A flavorful Thai green curry with chicken and coconut milk.",
+    "ingredients": [
+      "300 g chicken",
+      "200 ml coconut milk",
+      "50 g green curry paste",
+      "100 g bamboo shoots",
+      "30 g basil leaves"
+    ],
+    "preparing_time": 35,
+    "calories": 420
+  }
 ]
-  
