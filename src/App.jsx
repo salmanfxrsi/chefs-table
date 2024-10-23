@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Banner from "./components/Header/Banner";
 import Navbar from "./components/Header/Navbar";
@@ -5,18 +6,27 @@ import OurRecipes from "./components/Main/OurRecipesSection/OurRecipes";
 import Recipes from "./components/Main/OurRecipesSection/Recipes/Recipes";
 import Sidebar from "./components/Main/OurRecipesSection/Sidebar/sidebar";
 
-function App() {
+function App() { 
+  const [recipesQueue,setRecipesQueue] = useState([]);
+  
+  const handleWantToCook = (recipe) => {
+    setRecipesQueue([...recipesQueue,recipe]);
+  }
+
   return (
     <>
-      {/* Header */}
+      {/* Navbar */}
       <Navbar />
+      {/* Banner */}
       <Banner />
-      {/* Main */}
+      {/* Our Recipes Section */}
       <OurRecipes />
-      <div className="grid grid-cols-3 w-11/12 md:container mx-auto mb-24">
-        <Recipes />
-        <Sidebar />
-      </div>
+      {/* Recipes Container */}
+      <section className="flex flex-col-reverse lg:grid grid-cols-3 gap-6 w-11/12 md:container mx-auto mb-24">
+        <Recipes handleWantToCook={handleWantToCook} />
+      {/* Sidebar */}
+        <Sidebar recipesQueue={ recipesQueue } />
+      </section>
     </>
   );
 }
