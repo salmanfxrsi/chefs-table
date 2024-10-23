@@ -10,7 +10,16 @@ function App() {
   const [recipesQueue,setRecipesQueue] = useState([]);
   
   const handleWantToCook = (recipe) => {
-    setRecipesQueue([...recipesQueue,recipe]);
+    const isExist = recipesQueue.find(
+      checked => checked.recipe_id === recipe.recipe_id
+    );
+
+    if(!isExist){
+      setRecipesQueue([...recipesQueue,recipe]);
+    }
+    else{
+      alert("Already Added In Queue!")
+    }
   }
 
   return (
